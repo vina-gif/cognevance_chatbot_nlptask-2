@@ -1,0 +1,69 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hello", "hi", "hey", "good morning", "good evening", "hi there", "hey bot", "namaste"],
+      "responses": ["Hello! How can I help you today?", "Hi there! What can I do for you?", "Hey! Nice to see you. How can I help?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you later", "see you", "take care", "talk to you later", "i have to go"],
+      "responses": ["Goodbye! Have a great day.", "See you later! Take care.", "Bye! Come back anytime."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "thanks a lot", "that was helpful", "great help", "i appreciate it", "thank you so much"],
+      "responses": ["You're welcome!", "Happy to help!", "Anytime! Let me know if you need anything else."]
+    },
+    {
+      "tag": "name",
+      "patterns": ["what is your name", "who are you", "what should i call you", "tell me your name", "are you a bot"],
+      "responses": ["I am a chatbot built with Python and NLP.", "I'm an AI chatbot. You can call me NLP Bot."]
+    },
+    {
+      "tag": "capabilities",
+      "patterns": ["what can you do", "how can you help me", "what are your features", "help me", "what do you know", "can you help"],
+      "responses": ["I can answer basic questions about AI, machine learning, and this internship project.", "I can chat with you and answer questions about AI and ML topics."]
+    },
+    {
+      "tag": "ai_definition",
+      "patterns": ["what is ai", "define artificial intelligence", "explain artificial intelligence", "tell me about ai", "meaning of ai", "what does ai mean"],
+      "responses": ["Artificial Intelligence (AI) is the ability of machines to perform tasks that normally need human intelligence, like understanding language, recognizing images and making decisions."]
+    },
+    {
+      "tag": "ml_definition",
+      "patterns": ["what is machine learning", "define machine learning", "explain machine learning", "tell me about ml", "meaning of ml", "how do machines learn"],
+      "responses": ["Machine Learning (ML) is a part of AI where computers learn patterns from data instead of being programmed with fixed rules."]
+    },
+    {
+      "tag": "nlp_definition",
+      "patterns": ["what is nlp", "define natural language processing", "explain nlp", "tell me about nlp", "what does nlp mean"],
+      "responses": ["Natural Language Processing (NLP) helps computers understand, interpret and respond to human language, both text and speech."]
+    },
+    {
+      "tag": "chatbot_definition",
+      "patterns": ["what is a chatbot", "how does a chatbot work", "explain chatbot", "tell me about chatbots", "define chatbot", "how does a chatbot understand users", "working of a chatbot", "how are chatbots built", "what are chatbots", "explain how a chatbot replies"],
+      "responses": ["A chatbot is a program that talks with users. It finds the intent of the user's message and replies with a suitable answer."]
+    },
+    {
+      "tag": "deep_learning",
+      "patterns": ["what is deep learning", "define deep learning", "explain neural networks", "what is a neural network", "tell me about deep learning"],
+      "responses": ["Deep Learning is a type of machine learning that uses multi-layer neural networks to learn complex patterns from large amounts of data."]
+    },
+    {
+      "tag": "python_info",
+      "patterns": ["why python for ai", "why is python used in ai", "which language is used for ai", "best language for machine learning", "tell me about python"],
+      "responses": ["Python is popular for AI because it is simple to read and has powerful libraries like NumPy, Pandas, scikit-learn, TensorFlow and NLTK."]
+    },
+    {
+      "tag": "internship",
+      "patterns": ["tell me about your internship", "which internship is this", "what is this project", "what project is this", "who made you", "who created you", "who developed you", "who designed you", "who programmed you", "who is your creator"],
+      "responses": ["I am the Level 2 project of the AI and ML internship at Cognevance, built by Vinay Petkar using Python and NLP."]
+    },
+    {
+      "tag": "out_of_scope",
+      "patterns": ["will it rain tomorrow", "what is the temperature outside", "sing me a song", "tell me a story", "what is your favourite food", "who won the cricket match", "what is the price of gold", "book a movie ticket", "recommend a restaurant", "what time is it now", "order a pizza", "what is the score of the game", "turn on the lights", "open youtube"],
+      "responses": ["Sorry, I did not understand that. You can ask me about AI, machine learning, NLP or chatbots."]
+    }
+  ]
+}
